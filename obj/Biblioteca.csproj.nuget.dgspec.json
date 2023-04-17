@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dalla\\OneDrive\\Desktop\\Biblioteca\\Biblioteca.csproj": {}
+    "C:\\Users\\dalla\\OneDrive\\Desktop\\biblioteca-in-csharp-RiccardoDallaStella\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dalla\\OneDrive\\Desktop\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\dalla\\OneDrive\\Desktop\\biblioteca-in-csharp-RiccardoDallaStella\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dalla\\OneDrive\\Desktop\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\dalla\\OneDrive\\Desktop\\biblioteca-in-csharp-RiccardoDallaStella\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\dalla\\OneDrive\\Desktop\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "C:\\Users\\dalla\\OneDrive\\Desktop\\biblioteca-in-csharp-RiccardoDallaStella\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\dalla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dalla\\OneDrive\\Desktop\\Biblioteca\\obj\\",
+        "outputPath": "C:\\Users\\dalla\\OneDrive\\Desktop\\biblioteca-in-csharp-RiccardoDallaStella\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dalla\\AppData\\Roaming\\NuGet\\NuGet.Config"

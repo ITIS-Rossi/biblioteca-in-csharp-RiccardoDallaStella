@@ -12,6 +12,6 @@ public class Libro {
     }
 
     public override string ToString(){
-        return $"{this.titolo} di {this.autore} {this.anno}";
+        return $"{this.titolo} di {this.autore} pubblicato nel {this.anno}";
     }
 }
