@@ -9,9 +9,10 @@ public class Libro {
         this.autore = autoreLibro;
         this.anno = annoLibro;
         this.pagine = pagineLibro;
+        autoreLibro.aggiungi(this);
     }
 
     public override string ToString(){
-        return $"{this.titolo} del {this.anno} di {this.autore}";
+        return $"'{this.titolo}' del {this.anno}";
     }
 }

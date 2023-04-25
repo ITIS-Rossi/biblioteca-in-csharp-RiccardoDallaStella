@@ -3,12 +3,14 @@ public class Autore {
     private string nome;
     private bool sesso;
     private DateOnly data;
+    private List<Libro> libri;
 
     public Autore(string cognomeAutore, string nomeAutore, bool sessoAutore, DateOnly dataAutore){
         this.cognome = cognomeAutore;
         this.nome = nomeAutore;
         this.sesso = sessoAutore;
         this.data = dataAutore;
+        this.libri = new List <Libro>();
     }
 
     public override string ToString(){
@@ -18,8 +20,20 @@ public class Autore {
         return $"{this.cognome} {this.nome} autrice nata il {this.data}";
     }
 
-    /*private string[] elenco;
-    public string elencoLibri(){
-        return $"Ecco l'elenco dei suoi libri: {this.elenco}";
-    }*/
+    public String nomeCompleto {
+        get { return $"{cognome} {nome}";}
+    }
+
+    public DateTime dataDiNascita {
+        set { this.data = DateOnly.FromDateTime(value > DateTime.Now ? DateTime.Now : value);}
+    }
+
+    public int aggiungi(Libro newLibro){
+        this.libri.Add(newLibro);
+        return this.libri.Count;
+    }
+
+    public Libro[] libriPubblicati{
+        get { return this.libri.ToArray();}
+    }
 }
