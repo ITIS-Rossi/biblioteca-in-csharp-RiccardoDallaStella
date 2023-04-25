@@ -1,10 +1,10 @@
 public class Libro {
     private string titolo;
-    private string autore;
+    private Autore autore;
     private int anno;
     private int pagine;
 
-    public Libro(string titoloLibro, string autoreLibro, int annoLibro, int pagineLibro){
+    public Libro(string titoloLibro, Autore autoreLibro, int annoLibro, int pagineLibro){
         this.titolo = titoloLibro;
         this.autore = autoreLibro;
         this.anno = annoLibro;
@@ -12,6 +12,6 @@ public class Libro {
     }
 
     public override string ToString(){
-        return $"{this.titolo} di {this.autore} pubblicato nel {this.anno}";
+        return $"{this.titolo} del {this.anno} di {this.autore}";
     }
 }
