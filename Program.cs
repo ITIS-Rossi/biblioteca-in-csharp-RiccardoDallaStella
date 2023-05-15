@@ -6,14 +6,16 @@ Autore dallas = new Autore("Dalla Stella", "Riccardo", true, new DateOnly(2006, 
 
 Libro uno = new Libro("1984", orwell, 1949, 333);
 Libro due = new Libro("Memorie di Adriano", yourcenar, 1951, 354);
-Libro tre = new Libro("La stanchezza", dallas, 2018, 5);
-Libro quattro = new Libro("Ci vediamo mercoledì", dallas, 2023, 1);
+Libro tre = new Libro("Quoi? L'eternité", yourcenar, 1988, 200);
 
-Console.WriteLine(dallas);
+Biblioteca biblio = new Biblioteca("ITIS Rossi");
+biblio.AggiungiAutore(orwell);
+biblio.AggiungiAutore(yourcenar);
 
-/*int i = 0;
-foreach (Libro libro in new Libro[] {uno, due})
-    Console.WriteLine($"Libro n.{++i}: {libro}");*/
-
-foreach (Libro libro in dallas.libriPubblicati)
-    Console.WriteLine($" > {libro}");
+Console.WriteLine($"{biblio}\nElenco Autori:");
+foreach (Autore autore in biblio.ElencoAutori)
+    Console.WriteLine($"- {autore}\n libri presenti: {autore.libriPubblicati.Length}");
+int idx = 0;
+Console.WriteLine("Elenco Libri:");
+foreach (Libro libro in biblio.ElencoLibri)
+    Console.WriteLine($"{++idx}. {libro}");

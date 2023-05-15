@@ -2,6 +2,7 @@ public class Autore {
     private string cognome;
     private string nome;
     private bool sesso;
+    private int anno;
     private DateOnly data;
     private List<Libro> libri;
 
@@ -10,6 +11,7 @@ public class Autore {
         this.nome = nomeAutore;
         this.sesso = sessoAutore;
         this.data = dataAutore;
+        this.anno = dataAutore.Year;
         this.libri = new List <Libro>();
     }
 
@@ -18,6 +20,10 @@ public class Autore {
         return $"{this.cognome} {this.nome} autore nato il {this.data}";
         else
         return $"{this.cognome} {this.nome} autrice nata il {this.data}";
+    }
+
+    public int AnnoNascita {
+        get { return anno;}
     }
 
     public String nomeCompleto {

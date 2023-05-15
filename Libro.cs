@@ -15,4 +15,12 @@ public class Libro {
     public override string ToString(){
         return $"'{this.titolo}' del {this.anno}";
     }
+
+    public int AnnoPubblicazione {
+        get { return anno;}
+    }
+
+    public int PagineLibro {
+        get { return pagine;}
+    }
 }
