@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Biblioteca biblio = new Biblioteca("ITIS Rossi");
-if(!biblio.CaricaCSV()){
+if(biblio.CaricaCSV()){
+    Console.WriteLine("Caricamento avvenuto correttamente!");
+}
+else{
     Autore orwell = new Autore("Orwell", "George", true, new DateOnly(1903, 6, 25));
     Autore yourcenar = new Autore("Yourcenar", "Marguerite", false, new DateOnly(1903, 6, 8));
     Autore dallas = new Autore("Dalla Stella", "Riccardo", true, new DateOnly(2006, 10 , 19));
@@ -12,5 +15,6 @@ if(!biblio.CaricaCSV()){
 
     biblio.AggiungiAutore(orwell);
     biblio.AggiungiAutore(yourcenar);
+    biblio.AggiungiAutore(dallas);
 }
 biblio.SalvaCSV();
