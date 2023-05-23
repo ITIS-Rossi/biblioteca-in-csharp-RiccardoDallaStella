@@ -20,6 +20,22 @@ public class Libro {
         get { return anno;}
     }
 
+    public int Pagine {
+        get { return pagine;}
+    }
+
+    public string Titolo {
+        get { return titolo;}
+    }
+
+    public string CognomeAutore {
+        get { return this.autore.Cognome;}
+    }
+
+    public string NomeAutore {
+        get { return this.autore.Nome;}
+    }
+
     public int PagineLibro {
         get { return pagine;}
     }

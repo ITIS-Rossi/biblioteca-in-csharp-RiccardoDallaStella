@@ -2,7 +2,10 @@ public class Autore {
     private string cognome;
     private string nome;
     private bool sesso;
+    private string genere;
     private int anno;
+    private int mese;
+    private int giorno;
     private DateOnly data;
     private List<Libro> libri;
 
@@ -10,8 +13,13 @@ public class Autore {
         this.cognome = cognomeAutore;
         this.nome = nomeAutore;
         this.sesso = sessoAutore;
+        if(this.sesso)
+            this.genere = "M";
+        else this.genere = "F";
         this.data = dataAutore;
         this.anno = dataAutore.Year;
+        this.mese = dataAutore.Month;
+        this.giorno = dataAutore.Day;
         this.libri = new List <Libro>();
     }
 
@@ -26,8 +34,24 @@ public class Autore {
         get { return anno;}
     }
 
+    public string AnnoCompleto {
+        get { return $"{anno.ToString().PadLeft(4, '0')}{mese.ToString().PadLeft(2, '0')}{giorno.ToString().PadLeft(2, '0')}";}
+    }
+
     public String nomeCompleto {
         get { return $"{cognome} {nome}";}
+    }
+
+    public string Genere{
+        get { return $"{genere}";}
+    }
+    
+    public string Cognome {
+        get { return $"{cognome}";}
+    }
+
+    public string Nome {
+        get { return $"{nome}";}
     }
 
     public DateTime dataDiNascita {
