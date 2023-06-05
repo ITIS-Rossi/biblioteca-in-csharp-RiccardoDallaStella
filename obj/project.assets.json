@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dalla\\OneDrive\\Desktop\\biblioteca-in-csharp-RiccardoDallaStella\\Biblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\dalla\\OneDrive\\Desktop\\ITIS ROSSI\\2022-2023\\INFORMATICA\\biblioteca-in-csharp-RiccardoDallaStella\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "C:\\Users\\dalla\\OneDrive\\Desktop\\biblioteca-in-csharp-RiccardoDallaStella\\Biblioteca.csproj",
+      "projectPath": "C:\\Users\\dalla\\OneDrive\\Desktop\\ITIS ROSSI\\2022-2023\\INFORMATICA\\biblioteca-in-csharp-RiccardoDallaStella\\Biblioteca.csproj",
       "packagesPath": "C:\\Users\\dalla\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dalla\\OneDrive\\Desktop\\biblioteca-in-csharp-RiccardoDallaStella\\obj\\",
+      "outputPath": "C:\\Users\\dalla\\OneDrive\\Desktop\\ITIS ROSSI\\2022-2023\\INFORMATICA\\biblioteca-in-csharp-RiccardoDallaStella\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dalla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

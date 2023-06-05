@@ -28,3 +28,18 @@ C:\Users\dalla\OneDrive\Desktop\biblioteca-in-csharp-RiccardoDallaStella\obj\Deb
 C:\Users\dalla\OneDrive\Desktop\biblioteca-in-csharp-RiccardoDallaStella\obj\Debug\net7.0\Biblioteca.pdb
 C:\Users\dalla\OneDrive\Desktop\biblioteca-in-csharp-RiccardoDallaStella\obj\Debug\net7.0\Biblioteca.genruntimeconfig.cache
 C:\Users\dalla\OneDrive\Desktop\biblioteca-in-csharp-RiccardoDallaStella\obj\Debug\net7.0\ref\Biblioteca.dll
+C:\Users\dalla\OneDrive\Desktop\ITIS ROSSI\2022-2023\INFORMATICA\biblioteca-in-csharp-RiccardoDallaStella\bin\Debug\net7.0\Biblioteca.exe
+C:\Users\dalla\OneDrive\Desktop\ITIS ROSSI\2022-2023\INFORMATICA\biblioteca-in-csharp-RiccardoDallaStella\bin\Debug\net7.0\Biblioteca.deps.json
+C:\Users\dalla\OneDrive\Desktop\ITIS ROSSI\2022-2023\INFORMATICA\biblioteca-in-csharp-RiccardoDallaStella\bin\Debug\net7.0\Biblioteca.runtimeconfig.json
+C:\Users\dalla\OneDrive\Desktop\ITIS ROSSI\2022-2023\INFORMATICA\biblioteca-in-csharp-RiccardoDallaStella\bin\Debug\net7.0\Biblioteca.dll
+C:\Users\dalla\OneDrive\Desktop\ITIS ROSSI\2022-2023\INFORMATICA\biblioteca-in-csharp-RiccardoDallaStella\bin\Debug\net7.0\Biblioteca.pdb
+C:\Users\dalla\OneDrive\Desktop\ITIS ROSSI\2022-2023\INFORMATICA\biblioteca-in-csharp-RiccardoDallaStella\obj\Debug\net7.0\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\dalla\OneDrive\Desktop\ITIS ROSSI\2022-2023\INFORMATICA\biblioteca-in-csharp-RiccardoDallaStella\obj\Debug\net7.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dalla\OneDrive\Desktop\ITIS ROSSI\2022-2023\INFORMATICA\biblioteca-in-csharp-RiccardoDallaStella\obj\Debug\net7.0\Biblioteca.AssemblyInfoInputs.cache
+C:\Users\dalla\OneDrive\Desktop\ITIS ROSSI\2022-2023\INFORMATICA\biblioteca-in-csharp-RiccardoDallaStella\obj\Debug\net7.0\Biblioteca.AssemblyInfo.cs
+C:\Users\dalla\OneDrive\Desktop\ITIS ROSSI\2022-2023\INFORMATICA\biblioteca-in-csharp-RiccardoDallaStella\obj\Debug\net7.0\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\dalla\OneDrive\Desktop\ITIS ROSSI\2022-2023\INFORMATICA\biblioteca-in-csharp-RiccardoDallaStella\obj\Debug\net7.0\Biblioteca.dll
+C:\Users\dalla\OneDrive\Desktop\ITIS ROSSI\2022-2023\INFORMATICA\biblioteca-in-csharp-RiccardoDallaStella\obj\Debug\net7.0\refint\Biblioteca.dll
+C:\Users\dalla\OneDrive\Desktop\ITIS ROSSI\2022-2023\INFORMATICA\biblioteca-in-csharp-RiccardoDallaStella\obj\Debug\net7.0\Biblioteca.pdb
+C:\Users\dalla\OneDrive\Desktop\ITIS ROSSI\2022-2023\INFORMATICA\biblioteca-in-csharp-RiccardoDallaStella\obj\Debug\net7.0\Biblioteca.genruntimeconfig.cache
+C:\Users\dalla\OneDrive\Desktop\ITIS ROSSI\2022-2023\INFORMATICA\biblioteca-in-csharp-RiccardoDallaStella\obj\Debug\net7.0\ref\Biblioteca.dll

@@ -1,41 +1,35 @@
-public class Autore {
+public class Autore { //Creazione classe autore
     private string cognome;
     private string nome;
     private bool sesso;
     private string genere;
-    private int anno;
-    private int mese;
-    private int giorno;
-    private DateOnly data;
+    private DateTime anno;
     private List<Libro> libri;
 
-    public Autore(string cognomeAutore, string nomeAutore, bool sessoAutore, DateOnly dataAutore){
+    public Autore(string cognomeAutore, string nomeAutore, bool sessoAutore, DateTime annoAutore){ //Costruttore di base, gestisco il genere dell'autore e definizione della lista
         this.cognome = cognomeAutore;
         this.nome = nomeAutore;
         this.sesso = sessoAutore;
         if(this.sesso)
             this.genere = "M";
         else this.genere = "F";
-        this.data = dataAutore;
-        this.anno = dataAutore.Year;
-        this.mese = dataAutore.Month;
-        this.giorno = dataAutore.Day;
         this.libri = new List <Libro>();
+        this.anno = annoAutore;
     }
 
-    public override string ToString(){
+    public override string ToString(){ //Metodo ToString
         if(this.sesso)
-        return $"{this.cognome} {this.nome} autore nato il {this.data}";
+        return $"{this.cognome} {this.nome} autore nato il {this.anno}";
         else
-        return $"{this.cognome} {this.nome} autrice nata il {this.data}";
+        return $"{this.cognome} {this.nome} autrice nata il {this.anno}";
     }
 
-    public int AnnoNascita {
-        get { return anno;}
+    public int AnnoNascita { //Diverse proprietà che tornano l'anno di nascita dell'autore, l'anno completo nel formato specificato, il nome completo, il genere, il cognome, il nome;
+        get { return anno.Year;} //la data di nascita, un metodo che aggiunge un libro alla lista di libri dell'autore e una che torna la lista dei libri pubblicati
     }
 
     public string AnnoCompleto {
-        get { return $"{anno.ToString().PadLeft(4, '0')}{mese.ToString().PadLeft(2, '0')}{giorno.ToString().PadLeft(2, '0')}";}
+        get { return $"{this.anno.ToString("yyyyMMdd")}";}
     }
 
     public String nomeCompleto {
@@ -55,7 +49,7 @@ public class Autore {
     }
 
     public DateTime dataDiNascita {
-        set { this.data = DateOnly.FromDateTime(value > DateTime.Now ? DateTime.Now : value);}
+        set { this.anno = DateTime.Now;}
     }
 
     public int aggiungi(Libro newLibro){
