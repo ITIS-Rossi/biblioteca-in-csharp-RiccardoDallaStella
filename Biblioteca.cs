@@ -51,8 +51,10 @@ public class Biblioteca{ //Creazione classe Biblioteca
 
     public bool SalvaCSV(){ //Metodo SalvaCSV
         if(File.Exists(autoriPath) && File.Exists(libriPath)){ //Controlla se i due file esistono
+        // LF: se esiste gli elimina, meglio con File.Delete(...)
             File.WriteAllText(autoriPath, string.Empty); //Svuotano i file
             File.WriteAllText(libriPath, string.Empty);
+        // LF : FINE DELL'IF, gli using vanno messi fuori dall'IF
             using (StreamWriter autor = new StreamWriter(autoriPath)){ //Preso in uso il file autori.csv
                 autor.WriteLine("Cognome;Nome;Genere;Nascita"); //Scrittura della prima riga
                 foreach(Autore autore in this.elencoAutori){ //Ciclo foreach che scrive le diverse righe come devono essere, degli autori presenti nella Biblioteca
@@ -84,6 +86,7 @@ public class Biblioteca{ //Creazione classe Biblioteca
                     if(valori[2] == "M") //Gestione del sesso
                         sex = true;
                     else sex = false;
+                    // LF : un modo più rapido ?!?
                     string year = valori[3].Substring(0,4); //Gestione dell'anno
                     string month = valori[3].Substring(4,2); //Gestione del mese
                     string day = valori[3].Substring(6,2); //Gestione del giorno
