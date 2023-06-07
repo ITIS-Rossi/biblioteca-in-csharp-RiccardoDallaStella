@@ -111,6 +111,7 @@ public class Biblioteca{ //Creazione classe Biblioteca
             }
             return true;
         }
-        else return false;
+        // LF NON SERVE l'ELSE: else return false;
+        return false;
     }
 }
