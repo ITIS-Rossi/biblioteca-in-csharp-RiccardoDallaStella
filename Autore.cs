@@ -10,6 +10,8 @@ public class Autore { //Creazione classe autore
         this.cognome = cognomeAutore;
         this.nome = nomeAutore;
         this.sesso = sessoAutore;
+        // LF : molto meglio 
+        // this.genere = this.sesso ? "M" : "F";
         if(this.sesso)
             this.genere = "M";
         else this.genere = "F";
