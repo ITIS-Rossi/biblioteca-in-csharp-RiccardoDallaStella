@@ -16,6 +16,7 @@ public class Biblioteca{ //Creazione classe Biblioteca
         return $"La Biblioteca si chiama '{nome}' e possiede {autori} autori e {libri} libri";
     }
 
+    // LF: Cosa succede se aggiungo dei libri nuovi ad un autore già presente ?!?
     public void AggiungiAutore(Autore autore){ //Metodo aggiungi autore che li aggiunge alla lista di autori della biblioteca e aggiunge anche tutti i suoi libri
         this.elencoAutori.Add(autore);
         autori++;
